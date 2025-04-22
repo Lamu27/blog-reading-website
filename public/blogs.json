@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "author_name":"Rashik Molla",
+        "author_img": "https://i.ibb.co.com/Q3GnJP3r/boy1.png",
+        "title": "Exploring the Future of AI in Everyday Life",
+        "cover": "https://i.ibb.co.com/DDPsSMrg/statue.jpg",
+        "posted_date": "Mar 4 (4 Days ago)",
+        "reading_time": 5,
+        "hashtags": [
+            "#AI",
+            "#Technology",
+            "#Innovation"
+        ]
+    },
+    {
+        "id": "2",
+        "author_name":"Sayed Khan",
+        "author_img": "https://i.ibb.co.com/W48g4kmv/boy2.jpg",
+        "title": "Mastering CSS Grid in 2025",
+        "cover":"https://i.ibb.co.com/sdpwcg1K/tech.jpg",
+        "posted_date": "April 18 (7 Days ago)",
+        "reading_time": 7,
+        "hashtags": [
+            "#CSS",
+            "#WebDesign",
+            "#Frontend"
+        ]
+    },
+    {
+        "id": "3",
+        "author_name":"Selena Gomez",
+        "author_img":"https://i.ibb.co.com/PzTQbfTH/girl1.jpg",
+        "title": "A Beginner’s Guide to TypeScript",
+        "cover":"https://i.ibb.co.com/yFCHLdNw/breath.jpg",
+        "posted_date": "June 2 (2 Days ago)",
+        "reading_time": 6,
+        "hashtags": [
+            "#TypeScript",
+            "#JavaScript",
+            "#Coding"
+        ]
+    }
+]
