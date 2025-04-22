@@ -11,7 +11,7 @@ export default function Blog ({ blog,handleAddToBookmark,handleMarkAsRead }) {
             <div className='flex'>
                 <img className='w-12' src={author_img} alt="" />
                 <div className='ml-3'>
-                    <h4 className='text-xl'>{author_name}</h4>
+                    <h4 className='text-lg'>{author_name}</h4>
                     <p>{posted_date}</p>
                 </div>
             </div>
@@ -19,13 +19,13 @@ export default function Blog ({ blog,handleAddToBookmark,handleMarkAsRead }) {
                 <span>{reading_time} min read</span>
                 <button 
                     onClick={ ()=> handleAddToBookmark(blog)}
-                    className='text-red-300 ml-1'>
+                    className='text-red-700 ml-1'>
 
                     <FaBookmark></FaBookmark>
                 </button>
             </div>
         </div>
-        <h3 className='text-2xl font-bold'>{title}</h3>
+        <h3 className='text-2xl font-bold text-fuchsia-900'>{title}</h3>
         <p className=''>
             {
                 hashtags.map((hash, idx) => <span key={idx}><a href="" className='ml-1'>{hash}</a></span>
