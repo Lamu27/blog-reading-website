@@ -3,9 +3,9 @@ import Bookmark from "../Bookmark/Bookmark"
 
 export default function Bookmarks ( {bookmarks,readingTime} ) {
   return (
-    <div className="w-1/3 bg-rose-100 rounded-lg">
-        <p className="text-center font-bold mt-2 text-fuchsia-500">Spent Time on read: {readingTime}</p>
-        <p className="text-center font-bold text-xl mt-2 text-pink-900">Bookmarked Blogs: {bookmarks.length}</p>
+    <div className="w-1/3 bg-emerald-100 rounded-lg">
+        <p className="text-center font-bold mt-2 text-emerald-900">Spent Time on read: {readingTime}</p>
+        <p className="text-center font-bold text-xl mt-2 text-emerald-950">Bookmarked Blogs: {bookmarks.length}</p>
         {
             bookmarks.map((bookmark,idx) => <Bookmark key={idx} bookmark={bookmark} ></Bookmark>)
         }
